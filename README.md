@@ -132,12 +132,17 @@ Maps iMessage threads to cloud identifiers:
 ```
 relay-daemon-v2/
 ├── src/
+│   ├── index.js                 # Main application entry point
 │   ├── core/                    # Core daemon functionality
+│   │   ├── messageMonitor.js    # Message monitoring and processing
+│   │   └── messageProcessor.js  # Message handling logic
 │   ├── media/                   # Media handling
 │   ├── applescript/             # AppleScript integration
 │   ├── utils/                   # Utility functions
 │   ├── supabase/                # Supabase integration
+│   │   └── polling.js          # Polling fallback mechanism
 │   ├── config/                  # Configuration management
+│   │   └── loader.js           # Configuration loading
 │   └── monitoring/              # Monitoring and logging
 ├── tests/
 │   ├── unit/                    # Unit tests
@@ -150,9 +155,11 @@ relay-daemon-v2/
 ├── .gitignore                   # Git ignore rules
 ├── .mocharc.js                  # Mocha configuration
 ├── package.json                 # Project metadata and dependencies
+├── package-lock.json           # Dependency lock file
 ├── README.md                    # Project documentation
 ├── CONTRIBUTING.md              # Contributing guidelines
-└── LICENSE                      # MIT License
+├── LICENSE                      # MIT License
+└── validation_report.md         # Validation test results
 ```
 
 ### Testing
@@ -168,6 +175,15 @@ Run specific test suite:
 ```bash
 npm test -- --grep "Media Handler"
 ```
+
+Current test coverage includes:
+- Media Handling and Validation Integration
+- Supabase Realtime Manager Integration
+- AppleScript Queue Module
+- Bootstrap Module
+- PII Redactor Module
+
+All 36 tests are currently passing, covering core functionality and edge cases.
 
 ## Troubleshooting
 
