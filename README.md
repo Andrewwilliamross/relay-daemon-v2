@@ -1,8 +1,8 @@
-# Mac Server V2 iMessage Relay Daemon
+# iMessage Relay Daemon v2
 
 ## Overview
 
-The Mac Server V2 iMessage Relay Daemon is a high-integrity communication layer that bridges iMessage on a dedicated macOS instance with a cloud-based backend (Supabase). This daemon ensures reliable, secure message relay with zero tolerance for dropped messages.
+The iMessage Relay Daemon v2 is a high-integrity communication layer that bridges iMessage on a dedicated macOS instance with a cloud-based backend (Supabase). This daemon ensures reliable, secure message relay with zero tolerance for dropped messages.
 
 ## Key Features
 
@@ -26,18 +26,18 @@ The Mac Server V2 iMessage Relay Daemon is a high-integrity communication layer 
 ## Installation
 
 1. Clone the repository:
-   ```
-   git clone https://github.com/your-org/imessage-relay-daemon.git
-   cd imessage-relay-daemon
+   ```bash
+   git clone https://github.com/Andrewwilliamross/relay-daemon-v2.git
+   cd relay-daemon-v2
    ```
 
 2. Install dependencies:
-   ```
+   ```bash
    npm install
    ```
 
 3. Create a `.env` file with your Supabase credentials:
-   ```
+   ```env
    SUPABASE_URL=https://your-project.supabase.co
    SUPABASE_KEY=your-supabase-key
    LOG_LEVEL=info
@@ -53,13 +53,13 @@ The Mac Server V2 iMessage Relay Daemon is a high-integrity communication layer 
 
 Start the daemon:
 
-```
+```bash
 npm start
 ```
 
 For development:
 
-```
+```bash
 npm run dev
 ```
 
@@ -130,34 +130,43 @@ Maps iMessage threads to cloud identifiers:
 ### Project Structure
 
 ```
-imessage-relay-daemon/
+relay-daemon-v2/
 ├── src/
-│   ├── index.js                 # Main entry point
-│   ├── config/                  # Configuration management
 │   ├── core/                    # Core daemon functionality
-│   ├── applescript/             # AppleScript integration
-│   ├── supabase/                # Supabase integration
-│   ├── database/                # Database interactions
 │   ├── media/                   # Media handling
-│   └── utils/                   # Utility functions
+│   ├── applescript/             # AppleScript integration
+│   ├── utils/                   # Utility functions
+│   ├── supabase/                # Supabase integration
+│   ├── config/                  # Configuration management
+│   └── monitoring/              # Monitoring and logging
 ├── tests/
 │   ├── unit/                    # Unit tests
-│   └── integration/             # Integration tests
-└── scripts/                     # Utility scripts
+│   ├── integration/             # Integration tests
+│   ├── setup.js                 # Test setup
+│   └── fixtures/                # Test fixtures
+├── scripts/                     # Utility scripts
+├── config/                      # Configuration files
+├── .env                         # Environment variables
+├── .gitignore                   # Git ignore rules
+├── .mocharc.js                  # Mocha configuration
+├── package.json                 # Project metadata and dependencies
+├── README.md                    # Project documentation
+├── CONTRIBUTING.md              # Contributing guidelines
+└── LICENSE                      # MIT License
 ```
 
 ### Testing
 
 Run tests:
 
-```
+```bash
 npm test
 ```
 
 Run specific test suite:
 
-```
-npm test -- --grep "AppleScript Queue"
+```bash
+npm test -- --grep "Media Handler"
 ```
 
 ## Troubleshooting
@@ -186,8 +195,4 @@ npm test -- --grep "AppleScript Queue"
 
 ## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
