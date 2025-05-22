@@ -1,0 +1,28 @@
+{"level":"error","message":"AppleScript file not found","scriptName":"script2","scriptPath":"/Users/andrewross/Desktop/imessage-relay-daemon v2/src/applescript/scripts/script2.applescript","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.028Z"}
+{"error":{},"level":"error","message":"AppleScript execution failed: script2","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.030Z"}
+{"level":"info","message":"Retrying AppleScript: script2 (Attempt 2/3)","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.030Z"}
+{"level":"error","message":"AppleScript file not found","scriptName":"script2","scriptPath":"/Users/andrewross/Desktop/imessage-relay-daemon v2/src/applescript/scripts/script2.applescript","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.030Z"}
+{"error":{},"level":"error","message":"AppleScript execution failed: script2","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.031Z"}
+{"level":"info","message":"Retrying AppleScript: script2 (Attempt 3/3)","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.031Z"}
+{"level":"error","message":"AppleScript file not found","scriptName":"script2","scriptPath":"/Users/andrewross/Desktop/imessage-relay-daemon v2/src/applescript/scripts/script2.applescript","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.031Z"}
+{"error":{},"level":"error","message":"AppleScript execution failed: script2","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.031Z"}
+{"level":"error","message":"AppleScript file not found","scriptName":"script3","scriptPath":"/Users/andrewross/Desktop/imessage-relay-daemon v2/src/applescript/scripts/script3.applescript","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.032Z"}
+{"error":{},"level":"error","message":"AppleScript execution failed: script3","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.032Z"}
+{"level":"info","message":"Retrying AppleScript: script3 (Attempt 1/3)","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.032Z"}
+{"level":"error","message":"AppleScript file not found","scriptName":"script3","scriptPath":"/Users/andrewross/Desktop/imessage-relay-daemon v2/src/applescript/scripts/script3.applescript","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.032Z"}
+{"error":{},"level":"error","message":"AppleScript execution failed: script3","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.032Z"}
+{"level":"info","message":"Retrying AppleScript: script3 (Attempt 2/3)","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.032Z"}
+{"level":"error","message":"AppleScript file not found","scriptName":"script2","scriptPath":"/Users/andrewross/Desktop/imessage-relay-daemon v2/src/applescript/scripts/script2.applescript","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.034Z"}
+{"error":{},"level":"error","message":"AppleScript execution failed: script2","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.034Z"}
+{"level":"info","message":"Retrying AppleScript: script2 (Attempt 1/3)","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.034Z"}
+{"level":"error","message":"AppleScript file not found","scriptName":"script2","scriptPath":"/Users/andrewross/Desktop/imessage-relay-daemon v2/src/applescript/scripts/script2.applescript","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.035Z"}
+{"error":{},"level":"error","message":"AppleScript execution failed: script2","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.035Z"}
+{"level":"info","message":"Retrying AppleScript: script2 (Attempt 2/3)","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.035Z"}
+{"level":"error","message":"AppleScript file not found","scriptName":"script2","scriptPath":"/Users/andrewross/Desktop/imessage-relay-daemon v2/src/applescript/scripts/script2.applescript","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.035Z"}
+{"error":{},"level":"error","message":"AppleScript execution failed: script2","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.035Z"}
+{"level":"info","message":"Retrying AppleScript: script2 (Attempt 3/3)","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.035Z"}
+{"level":"error","message":"AppleScript file not found","scriptName":"script2","scriptPath":"/Users/andrewross/Desktop/imessage-relay-daemon v2/src/applescript/scripts/script2.applescript","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.035Z"}
+{"error":{},"level":"error","message":"AppleScript execution failed: script2","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.035Z"}
+{"level":"error","message":"AppleScript file not found","scriptName":"script3","scriptPath":"/Users/andrewross/Desktop/imessage-relay-daemon v2/src/applescript/scripts/script3.applescript","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.036Z"}
+{"error":{},"level":"error","message":"AppleScript execution failed: script3","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.036Z"}
+{"level":"info","message":"Retrying AppleScript: script3 (Attempt 1/3)","service":"imessage-relay-daemon","timestamp":"2025-05-21T23:03:55.036Z"}
